@@ -1,0 +1,9 @@
+{
+    "devDependencies": {
+        "tailwindcss": "^3.4.3",
+        "@tailwindcss/forms": "^0.5.2"
+    },
+    "scripts": {
+        "css": "npx tailwindcss -i ./login/resources/css/style.css -o ./login/resources/css/output.css --watch"
+    }
+}
